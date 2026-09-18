@@ -2,6 +2,10 @@
 
 A real-time currency converter web application.
 
+## 🌐 Live Website
+
+👉 [**Open Currency Exchanger**]((https://nevuro.github.io/currency-exchange/))
+
 ## Features
 
 - Convert between 150+ world currencies
