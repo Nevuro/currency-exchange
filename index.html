@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="static/css/style.css">
+  <link rel="icon" type="image/x-icon" href="public/logo.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <div class="converter-card">
+    <h2>Currency Converter</h2>
+    
+    <div class="converter-box">
+      <!-- Amount Input -->
+      <div class="input-group">
+        <label for="amount">Amount</label>
+        <input type="number" id="amount" value="1" min="0.01" step="any" placeholder="Enter amount">
+      </div>
+
+      <!-- Currency Selectors -->
+      <div class="drop-list">
+        <div class="select-box">
+          <label for="from-currency">From</label>
+          <div class="select-container">
+            <img src="https://flagsapi.com/US/flat/64.png" alt="flag" id="from-flag">
+            <select id="from-currency"></select>
+          </div>
+        </div>
+
+        <button type="button" id="swap-btn" title="Swap Currencies">
+          <i class="fa-solid fa-arrows-rotate"></i>
+        </button>
+
+        <div class="select-box">
+          <label for="to-currency">To</label>
+          <div class="select-container">
+            <img src="https://flagsapi.com/EG/flat/64.png" alt="flag" id="to-flag">
+            <select id="to-currency"></select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Result Display -->
+      <div class="exchange-rate" id="exchange-rate">Getting exchange rate...</div>
+    </div>
+    <footer>
+          <span> Created By  </span>
+  <a href="https://github.com/nevuro" target="_blank" rel="noopener noreferrer">
+    <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+         alt="GitHub"
+         width="24">
+ <span>Nevuro</span>
+  </a>
+</footer>
+  </div>
+  
+
+  <script src="static/js/country-list.js"></script>
+  <script src="static/js/script.js"></script>
+</body>
+</html>
