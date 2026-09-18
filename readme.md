@@ -4,7 +4,7 @@ A real-time currency converter web application.
 
 ## 🌐 Live Website
 
-👉 [**Open Currency Exchanger**]((https://nevuro.github.io/currency-exchange/))
+👉 [**Open Currency Exchanger**](https://nevuro.github.io/currency-exchange/)
 
 ## Features
 
